@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', async() => {
                               </div>
                               <div class="modal-body pt-0 pb-0">
                                 <div class="text-center">
-                                    <img src='img/logo.png' height='35' />
+                                    <img src='assets/img/logo.png' height='35' />
                                     <p class='lead pb-1'>Convert Video to GIF with FFmepg</p>
                                     <p class='text-custom-one mb-0'><strong>Transcode</strong> video files into animated GIFs using Ffmepg WebAssembly (<a href='https://webassembly.org/' target='_blank'>WASM</a>) which runs entirely in-browser.</p>
                                     <span class='symbol mr-1 font-weight-bold'>⇒</span><mark class='emoji'>🚫 No internet required.</mark>
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', async() => {
                                 </div>
                               </div>
                               <div class="modal-footer text-right">
-                                <small><span class='symbol pl-1 pr-1'><a href='https://www.buymeacoffee.com/geekcc' target='_blank'><img src='img/buy_me_a_taco.png' height='26' /></a> </span><a href="https://medium.com/@geek-cc" target="_blank" class="small"><span class="symbol">~ ξ(</span><span class="emoji">🎀</span><span class="symbol">˶❛◡❛) ᵀᴴᴱ ᴿᴵᴮᴮᴼᴺ ᴳᴵᴿᴸ</span></a> 
+                                <small><span class='symbol pl-1 pr-1'><a href='https://www.buymeacoffee.com/geekcc' target='_blank'><img src='assets/img/buy_me_a_taco.png' height='26' /></a> </span><a href="https://medium.com/@geek-cc" target="_blank" class="small"><span class="symbol">~ ξ(</span><span class="emoji">🎀</span><span class="symbol">˶❛◡❛) ᵀᴴᴱ ᴿᴵᴮᴮᴼᴺ ᴳᴵᴿᴸ</span></a> 
                                 </small> <span class='symbol text-custom-one'>❘</span> <span class='symbol pl-1 pr-1'><a href='https://github.com/incubated-geek-cc/' target='_blank'><span data-profile='github' class='attribution-icon'></span></a>▪<a href='https://medium.com/@geek-cc' target='_blank'><span data-profile='medium' class='attribution-icon'></span></a>▪<a href='https://www.linkedin.com/in/charmaine-chui-15133282/' target='_blank'><span data-profile='linkedin' class='attribution-icon'></span></a>▪<a href='https://twitter.com/IncubatedGeekCC' target='_blank'><span data-profile='twitter' class='attribution-icon'></span></a> </span>
                               </div>`;
 

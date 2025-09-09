@@ -2,9 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 9000;
 
-const fs = require('fs');
 const path = require('path');
-const engine = require("consolidate");
 const compression = require('compression')
 
 // compress all responses
@@ -17,13 +15,8 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.use(express.static(path.join(__dirname, "public")));
 
-app.use(express.static(path.join(__dirname, "public")))
-.set("views", path.join(__dirname, "views"))
-.engine("html", engine.mustache)
-.set("view engine", "html")
-.get("/", (req, res) => res.render("index.html"))
-.get("/index.html", (req, res) => res.render("index.html"))
-.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log(`FFmpeg App is listening on port ${PORT}!`)
 });
